@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"  
+     tools:context="com.example.weixin.activity.MainActivity"  >
+
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/actionbar_search_icon"
+        android:showAsAction="always|collapseActionView"
+        android:title="@string/search">
+    </item>
+    <!-- <item
+        android:id="@+id/action_add"
+        android:actionProviderClass="com.example.weixin.activity.PlusActionProvider"
+        android:icon="@drawable/app_panel_add_icon"
+        android:showAsAction="always"
+        android:title="@string/add"> 
+    </item>-->
+    <item
+        android:id="@+id/action_collection"
+        android:icon="@drawable/app_panel_fav_icon"
+        android:title="@string/collection"/>
+    <item
+        android:id="@+id/action_card"
+        android:icon="@drawable/app_panel_pic_icon"
+        android:title="@string/mycard"/>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/app_panel_setting_icon"
+        android:title="@string/setting"/>
+    <!-- <item
+        android:id="@+id/action_collection1"
+        android:icon="@drawable/app_panel_fav_icon"
+        android:title="@string/collection"/>-->
+</menu>

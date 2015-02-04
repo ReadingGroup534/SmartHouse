@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >  
+         <!-- Search, should appear as action button -->    
+        <item android:id="@+id/action_search"    
+              android:icon="@drawable/actionbar_search_icon"    
+              android:title="搜索"   
+              android:showAsAction="always|collapseActionView"  
+          	  android:actionViewClass="android.widget.SearchView"/>    
+        <!-- Settings, should always be in the overflow -->  
+        <item android:id="@+id/action_add"    
+              android:title="添加"    
+              android:icon="@drawable/actionbar_add_icon"  
+              android:showAsAction="always" />     
+         
+       <item android:id="@+id/action_settings"    
+              android:title="更多"    
+              android:icon="@drawable/abc_ic_menu_moreoverflow_normal_holo_light"  
+              android:showAsAction="ifRoom">   
+              <menu >  
+                  <group >  
+                      <item   
+                          android:id="@+id/item1"  
+                          android:title="个人中心"  
+                          android:icon="@drawable/ic_launcher"/>  
+                      <item   
+                          android:id="@+id/item2"  
+                          android:title="自定义"  
+                          android:icon="@drawable/ic_launcher"/>  
+                      <item   
+                          android:id="@+id/item3"  
+                          android:title="历史记录"  
+                          android:icon="@drawable/ic_launcher"/>  
+                  </group>  
+              </menu>  
+        </item>   
+</menu>  
+
+

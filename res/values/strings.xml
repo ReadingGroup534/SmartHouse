@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmartHouse</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="author">智能家居团队</string>
+    <string name="smarthouse">智能房子</string>
+    <string name="login_des">已有账号请直接登录</string>
+    <string name="register">注册</string>
+    <string name="des">【点击跳转到主界面】\n如果你没有账号，请注册</string>
+    <string name="log">登录</string>
+    <string name="forget_passwd">忘记密码?</string>
+    <string name="passwd">密 码</string>
+    <string name="confirm_passwd">确认密码</string>
+    <string name="back">返回</string>
+    <string name="log_text">QQ号/邮箱号/手机号</string>
+    <string name="reg_text">请输入你想要的号码</string>
+    <string name="msg_not_wifi">正在非wifi网络中使用，请注意数据流量</string>
+    <string name="shake_settings">设置</string>
+    
+    <string name="help_text">查看帮助文档</string>
+    <string name="others">其他</string>
+    <string name="door">房门</string>
+    <string name="lights">灯光</string>
+    <string name="reg">注册</string>
+    <string name="name">用户名</string>
+    <string name="wel_start">开始</string>
+    <string name="loading">正在登录</string>
+    <string name="rem_pass">记住密码</string>
+    <string name="auto_text">自动登录</string>
+    <string name="search">搜索</string>
+    <string name="add">添加</string>
+    <string name="collection">我的收藏</string>
+    <string name="mycard">我的相冊</string>
+     <string name="setting">設置</string>
+    <string name="msg_quit">再按一次退出</string>
+    
+    <!-- welcome page -->
+    <string name="whatnew1_text">\n智能安防\n超过100万人使用的手机应用</string>
+    <string name="whatnew2_text">轻松掌握家里情况\n家里安全是如此安心</string>
+    <string name="whatnew3_text">透过视频传输\n你甚至可以看到家里的一切情况</string>
+    <string name="whatnew4_text">\n你还可以透过朋友圈\n和朋友们分享彼此的生活</string>
+    <string name="whatnew5_text">\n \n智能安防，不仅仅\n是一种生活方式</string>
+   
+    
+</resources>
