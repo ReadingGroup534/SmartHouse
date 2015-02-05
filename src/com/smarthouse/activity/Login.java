@@ -2,7 +2,6 @@ package com.smarthouse.activity;
 
 import java.net.URL;
 
-
 import android.R.bool;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -188,10 +187,10 @@ public class Login extends Activity implements OnClickListener {
 			/*
 			 * if("lyc".equals(userString)&&"123456".equals(passwdString)){
 			 * Log.i("lyc","user:"+userString+"pass:"+passwdString);
-			 * //登录�?功和记�?密�?框为选中状�?�?�?存用户信�?� if (rem_passwd.isChecked()) { //记�?用户�??�?密�?
-			 * Editor editor = spPreferences.edit(); editor.putString("USER",
-			 * userString); editor.putString("PASSWD", passwdString);
-			 * editor.commit(); } Intent intent = new
+			 * //登录�?功和记�?密�?框为选中状�?�?�?存用户信�?� if (rem_passwd.isChecked()) {
+			 * //记�?用户�??�?密�? Editor editor = spPreferences.edit();
+			 * editor.putString("USER", userString); editor.putString("PASSWD",
+			 * passwdString); editor.commit(); } Intent intent = new
 			 * Intent(Login.this,LoadingActivity.class); startActivity(intent);
 			 * Login.this.finish(); }else if
 			 * ("".equals(userString)||"".equals(passwdString)) { new

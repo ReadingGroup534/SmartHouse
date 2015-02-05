@@ -52,17 +52,7 @@ public class Welcome extends Activity{
 				case 3:
 					mImageView3.setImageDrawable(getResources().getDrawable(R.drawable.page_now));
 					mImageView2.setImageDrawable(getResources().getDrawable(R.drawable.page));
-//					mImageView4.setImageDrawable(getResources().getDrawable(R.drawable.page));
 					break;
-//				case 4:
-//					mImageView4.setImageDrawable(getResources().getDrawable(R.drawable.page_now));
-//					mImageView3.setImageDrawable(getResources().getDrawable(R.drawable.page));
-//					mImageView5.setImageDrawable(getResources().getDrawable(R.drawable.page));
-//					break;
-			/*	case 5:
-					mImageView5.setImageDrawable(getResources().getDrawable(R.drawable.page_now));
-					mImageView4.setImageDrawable(getResources().getDrawable(R.drawable.page));
-					break;*/
 				default:
 					break;
 				}

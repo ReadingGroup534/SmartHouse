@@ -12,8 +12,18 @@
         android:layout_gravity="center">
     </android.support.v4.view.ViewPager>
     
+    <!-- <LinearLayout 
+        android:id="@+id/ll_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        ></LinearLayout> -->
+    
     <!-- set the layout bottom  little circle -->
-    <LinearLayout 
+     <LinearLayout 
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal">
@@ -47,12 +57,12 @@
                 android:scaleType="matrix"
                 android:layout_marginLeft="10dp"
                 android:src="@drawable/page"/> 
-            <!--  <ImageView android:id="@+id/imview4"
+             <ImageView android:id="@+id/imview4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:scaleType="matrix"
                 android:layout_marginLeft="10dp"
-                android:src="@drawable/page"/> -->
+                android:src="@drawable/page"/>
         </LinearLayout>
     </LinearLayout>
 </FrameLayout>
