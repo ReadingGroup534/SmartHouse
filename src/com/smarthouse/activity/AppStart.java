@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 public class AppStart extends Activity {
 	/**
-	 * �?�动界�?�
+	 * 启动界面
 	 * 
 	 * @author liyangchao
 	 */
@@ -31,6 +31,8 @@ public class AppStart extends Activity {
 				AppStart.this.finish();
 				}
 			}, 1000);
+		}else {
+			Toast.makeText(AppStart.this, R.string.no_network, Toast.LENGTH_LONG).show();
 		}
 	}
 	

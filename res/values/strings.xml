@@ -18,6 +18,7 @@
     <string name="log_text">QQ号/邮箱号/手机号</string>
     <string name="reg_text">请输入你想要的号码</string>
     <string name="msg_not_wifi">正在非wifi网络中使用，请注意数据流量</string>
+    <string name="no_network">"当前没有网络连接，请检查设置"</string>
     <string name="shake_settings">设置</string>
     
     <string name="help_text">查看帮助文档</string>
