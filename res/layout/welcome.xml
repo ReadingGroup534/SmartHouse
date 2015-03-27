@@ -57,12 +57,6 @@
                 android:scaleType="matrix"
                 android:layout_marginLeft="10dp"
                 android:src="@drawable/page"/> 
-             <ImageView android:id="@+id/imview4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:scaleType="matrix"
-                android:layout_marginLeft="10dp"
-                android:src="@drawable/page"/>
         </LinearLayout>
     </LinearLayout>
 </FrameLayout>

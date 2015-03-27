@@ -19,7 +19,7 @@
     </item>-->
     <item
         android:id="@+id/action_collection"
-        android:icon="@drawable/app_panel_fav_icon"
+        android:icon="@drawable/door"
         android:title="@string/collection"/>
     <item
         android:id="@+id/action_card"
