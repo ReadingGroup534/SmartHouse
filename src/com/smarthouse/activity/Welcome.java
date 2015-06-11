@@ -142,7 +142,7 @@ public class Welcome extends Activity{
 	
 	public void startbutton(View v) {  
       	Intent intent = new Intent();
-      	intent.setClass(Welcome.this, MainActivity.class);
+      	intent.setClass(Welcome.this, Main.class);
 		startActivity(intent);
 		this.finish();
       }  

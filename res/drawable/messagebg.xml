@@ -4,7 +4,7 @@
           android:drawable="@drawable/message_selected" />
     <item android:state_checked="false" android:state_window_focused="false"
           android:drawable="@drawable/message_unselected" />
-    <item android:state_checked="true" android:drawable="@drawable/message_selected" />
-    <item android:state_checked="false" android:drawable="@drawable/message_unselected" />
+    <item android:state_checked="true" android:drawable="@drawable/icon_1_b" />
+    <item android:state_checked="false" android:drawable="@drawable/icon_1_a" />
     
 </selector>

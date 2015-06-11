@@ -4,8 +4,6 @@
           android:drawable="@drawable/contacts_selected" />
     <item android:state_checked="false" android:state_window_focused="false"
           android:drawable="@drawable/contacts_unselected" />
-    <item android:state_checked="true" android:drawable="@drawable/contacts_selected" />
-    <item android:state_checked="false" android:drawable="@drawable/contacts_unselected" />
-   
-
+    <item android:state_checked="true" android:drawable="@drawable/icon_2_b" />
+    <item android:state_checked="false" android:drawable="@drawable/icon_2_a" />
 </selector>

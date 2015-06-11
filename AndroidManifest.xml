@@ -20,7 +20,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.smarthouse.activity.AppStart"
+            android:name="com.smarthouse.activity.Main"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.NoTitleBar">
             <intent-filter>
@@ -44,6 +44,8 @@
              android:theme="@android:style/Theme.NoTitleBar"></activity>
          <activity android:name="com.smarthouse.activity.Welcome"
              android:theme="@android:style/Theme.NoTitleBar"></activity>
+          <!-- <activity android:name="com.smarthouse.activity.Main"   
+            android:screenOrientation="portrait"></activity> -->
     </application>
 
 </manifest>

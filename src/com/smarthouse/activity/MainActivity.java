@@ -82,7 +82,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.mainactivity);
+		setContentView(R.layout.main);
 		
 		//set ActionBar's back action
 		ActionBar actionBar = this.getActionBar();
