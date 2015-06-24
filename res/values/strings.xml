@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">SmartHouse</string>
+    <string name="app_name">Mom_HandBook</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
 
@@ -37,6 +37,7 @@
     <string name="mycard">我的相冊</string>
      <string name="setting">設置</string>
     <string name="msg_quit">再按一次退出</string>
+    <string name="suggest">意见反馈</string>
     
     <!-- welcome page -->
     <string name="whatnew1_text">\n智能安防\n超过100万人使用的手机应用</string>

@@ -22,7 +22,7 @@
             <TextView
                 style="@style/MyLeftMenuText"
                 android:layout_toRightOf="@id/id_img1"
-                android:text="@string/door">
+                android:text="@string/smarthouse">
             </TextView>
         </RelativeLayout>
 
@@ -40,7 +40,7 @@
             <TextView
                 style="@style/MyLeftMenuText"
                 android:layout_toRightOf="@id/id_img3"
-                android:text="@string/smarthouse" >
+                android:text="@string/mycard" >
             </TextView>
         </RelativeLayout>
 
@@ -57,7 +57,7 @@
             <TextView
                  style="@style/MyLeftMenuText"
                 android:layout_toRightOf="@id/id_img4"
-                android:text="@string/setting"
+                android:text="@string/collection"
                
              >
             </TextView>
@@ -76,7 +76,7 @@
             <TextView
                 style="@style/MyLeftMenuText"
                 android:layout_toRightOf="@id/id_img5"
-                android:text="@string/setting"
+                android:text="@string/suggest"
              >
             </TextView>
         </RelativeLayout>

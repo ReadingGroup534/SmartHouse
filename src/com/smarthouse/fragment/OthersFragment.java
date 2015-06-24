@@ -33,7 +33,7 @@ public class OthersFragment extends Fragment implements OnCheckedChangeListener 
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
-		parentView = inflater.inflate(R.layout.fragment_news, null);
+		parentView = inflater.inflate(R.layout.fragment_others, null);
 
 		radioGroup = (RadioGroup) parentView.findViewById(R.id.radioGroup);
 		rbTongZhi = (RadioButton) parentView.findViewById(R.id.rbTongZhi);

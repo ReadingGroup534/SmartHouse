@@ -14,7 +14,7 @@ public class DoorFragment extends Fragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
-		View view = inflater.inflate(R.layout.wel1, null);
+		View view = inflater.inflate(R.layout.fragment_door, null);
 		return view;
 	}
 
