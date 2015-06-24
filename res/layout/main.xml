@@ -6,6 +6,7 @@
     android:background="@drawable/img_frame_background" >
 
     <com.smarthouse.view.SlidingMenuView
+        android:id="@+id/id_menu"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         louis:rightPadding="80dp" >

@@ -16,50 +16,15 @@
 
             <ImageView
                 android:id="@+id/id_img1"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="20dp"
+                style="@style/MyLestMenuImage"
                 android:src="@drawable/more_game" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="20dp"
+                style="@style/MyLeftMenuText"
                 android:layout_toRightOf="@id/id_img1"
-                android:text="@string/door"
-                android:textColor="@color/white"
-                android:textSize="20sp" >
+                android:text="@string/door">
             </TextView>
         </RelativeLayout>
-
-        <!-- <RelativeLayout
-            android:id="@+id/qingganLayout"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content" >
-
-            <ImageView
-                android:id="@+id/id_img2"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="20dp"
-                android:src="@drawable/door" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="20dp"
-                android:layout_toRightOf="@id/id_img2"
-                android:text="@string/smarthouse"
-                android:textColor="@color/white"
-                android:textSize="20sp" >
-            </TextView>
-        </RelativeLayout> -->
 
         <RelativeLayout
             android:id="@+id/xiaohualayout"
@@ -68,22 +33,14 @@
 
             <ImageView
                 android:id="@+id/id_img3"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="20dp"
+                style="@style/MyLestMenuImage"
                 android:src="@drawable/more_game" />
 
+           
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="20dp"
+                style="@style/MyLeftMenuText"
                 android:layout_toRightOf="@id/id_img3"
-                android:text="@string/smarthouse"
-                android:textColor="@color/white"
-                android:textSize="20sp" >
+                android:text="@string/smarthouse" >
             </TextView>
         </RelativeLayout>
 
@@ -94,22 +51,15 @@
 
             <ImageView
                 android:id="@+id/id_img4"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="20dp"
+                style="@style/MyLestMenuImage"
                 android:src="@drawable/more_game" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="20dp"
+                 style="@style/MyLeftMenuText"
                 android:layout_toRightOf="@id/id_img4"
                 android:text="@string/setting"
-                android:textColor="@color/white"
-                android:textSize="20sp" >
+               
+             >
             </TextView>
         </RelativeLayout>
 
@@ -120,22 +70,14 @@
 
             <ImageView
                 android:id="@+id/id_img5"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="20dp"
+                style="@style/MyLestMenuImage"
                 android:src="@drawable/more_game" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="20dp"
+                style="@style/MyLeftMenuText"
                 android:layout_toRightOf="@id/id_img5"
                 android:text="@string/setting"
-                android:textColor="@color/white"
-                android:textSize="20sp" >
+             >
             </TextView>
         </RelativeLayout>
     </LinearLayout>

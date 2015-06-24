@@ -16,9 +16,10 @@
     <color name="papayawhip">#FFEFD5</color><!--番木色 -->
 
     <color name="blanchedalmond">#FFEBCD</color><!--白杏色 -->
+    <color name="transparent">#00000000</color>
+    <color name="zone_title_bg">#ffee71a1</color>
 
     <color name="mistyrose">#FFE4E1</color><!--浅玫瑰色 -->
-    
     <color name="text_color">#717171</color><!--浅玫瑰色 -->
 
     <color name="bisque">#FFE4C4</color><!--桔黄色 -->

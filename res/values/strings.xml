@@ -44,6 +44,9 @@
     <string name="whatnew3_text">透过视频传输\n你甚至可以看到家里的一切情况</string>
     <string name="whatnew4_text">\n你还可以透过朋友圈\n和朋友们分享彼此的生活</string>
     <string name="whatnew5_text">\n \n智能安防，不仅仅\n是一种生活方式</string>
+    
+    <string name="tongzhi">通知</string>
+    <string name="dongtai">动态</string>
    
     
 </resources>

@@ -199,6 +199,14 @@ public class SlidingMenuView extends HorizontalScrollView {
 		isOpen = false;
 	}
 	
+	//切换菜单
+	public void toggle() {
+		if (isOpen) {
+			closeMenu();
+		}else {
+			openMenu();
+		}
+	}
 	
 	/**
 	 * 将侧滑变成抽屉式
