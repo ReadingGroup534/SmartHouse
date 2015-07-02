@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android" >
      <item android:state_checked="true" android:state_window_focused="false"
-          android:drawable="@drawable/news_selected" />
+          android:drawable="@drawable/icon_3_a" />
      <item android:state_checked="false" android:state_window_focused="false"
-          android:drawable="@drawable/news_unselected" />
-     <item android:state_checked="true" android:drawable="@drawable/icon_3_b" />
-     <item android:state_checked="false" android:drawable="@drawable/icon_3_a" />
+          android:drawable="@drawable/icon_3_b" />
+     <item android:state_checked="true" android:drawable="@drawable/icon_3_a" />
+     <item android:state_checked="false" android:drawable="@drawable/icon_3_b" />
    
 </selector>

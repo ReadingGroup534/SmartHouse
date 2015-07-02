@@ -1,19 +1,25 @@
 package com.smarthouse.activity;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
 import com.smarthouse.fragment.DoorFragment;
 import com.smarthouse.fragment.LightsFragment;
 import com.smarthouse.fragment.OthersFragment;
 import com.smarthouse.view.SlidingMenuView;
 
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentTransaction;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.Window;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Toast;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 
 public class Main extends FragmentActivity {
@@ -22,6 +28,17 @@ public class Main extends FragmentActivity {
 	private RadioGroup radioGroup;
 	
 	private SlidingMenuView slidingMenu;
+	
+	private boolean isDoubleClick = false; // 点击两次返回键推出程序
+	
+	private DoorFragment doorFragment;
+	private LightsFragment lightsFragment;
+	private OthersFragment othersFragment;
+	
+	/**
+	 * 用于对Fragment进行管理
+	 */
+	private FragmentManager fragmentManager;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -39,27 +56,39 @@ public class Main extends FragmentActivity {
 				switch (checkedId) {
 				case R.id.door:
 					setTabSelection(0);
-					changeFragment(new DoorFragment());
+					if (doorFragment == null) {
+						doorFragment = new DoorFragment();
+					}
+					changeFragment(doorFragment);
 					break;
 				case R.id.lights:
 					// 当点击了灯光tab时，选中第2个tab
 					setTabSelection(1);
-					changeFragment(new LightsFragment());
+					if (lightsFragment == null) {
+						lightsFragment = new LightsFragment();
+					}
+					changeFragment(lightsFragment);
 					break;
 				case R.id.others:
 					// 当点击了其他tab时，选中第3个tab
 					setTabSelection(2);
+					if (othersFragment == null) {
+						othersFragment = new OthersFragment();
+					}
 					changeFragment(new OthersFragment());
 					break;
 				case R.id.setting:
 					// 当点击了设置tab时，选中第4个tab
 					setTabSelection(3);
-					break;
-				default:
+					if (doorFragment == null) {
+						doorFragment = new DoorFragment();
+					}
+					changeFragment(doorFragment);
 					break;
 				}
 			}
 		});
+		
 		// 默认选中第一个
 		setTabSelection(0);
 
@@ -77,13 +106,13 @@ public class Main extends FragmentActivity {
 
 	private void clearSelection() {
 		doorButton.setChecked(false);
-		doorButton.setTextColor(Color.WHITE);
+		doorButton.setTextColor(Color.GRAY);
 		lightsButton.setChecked(false);
-		lightsButton.setTextColor(Color.WHITE);
+		lightsButton.setTextColor(Color.GRAY);
 		othersButton.setChecked(false);
-		othersButton.setTextColor(Color.WHITE);
+		othersButton.setTextColor(Color.GRAY);
 		settingButton.setChecked(false);
-		settingButton.setTextColor(Color.WHITE);
+		settingButton.setTextColor(Color.GRAY);
 	}
 
 	/**
@@ -113,6 +142,7 @@ public class Main extends FragmentActivity {
 		}
 	}
 
+
 	private void setButton(RadioButton button) {
 		button.setChecked(true);
 		button.setTextColor(Color.GREEN);
@@ -132,4 +162,31 @@ public class Main extends FragmentActivity {
 		slidingMenu.toggle();
 	}
 
+	Timer mQuitTimer = new Timer();
+
+	@Override
+	public boolean onKeyDown(int keyCode, KeyEvent event) {
+		// TODO Auto-generated method stub
+		if (event.getAction() == KeyEvent.ACTION_DOWN) {
+			if (keyCode == KeyEvent.KEYCODE_BACK) {
+				if (!isDoubleClick) {
+					isDoubleClick = true;
+					Toast.makeText(this, getText(R.string.msg_quit),
+							Toast.LENGTH_LONG).show();
+					mQuitTimer.schedule(new TimerTask() {
+
+						@Override
+						public void run() {
+							// TODO Auto-generated method stub
+							isDoubleClick = false;
+						}
+					}, 1500);
+				} else {
+					System.exit(0);
+				}
+				return true;
+			}
+		}
+		return super.onKeyDown(keyCode, event);
+	}
 }

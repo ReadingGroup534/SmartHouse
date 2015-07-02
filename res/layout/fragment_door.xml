@@ -5,10 +5,6 @@
     android:orientation="vertical" 
     android:background="@color/white">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical" >
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -47,8 +43,7 @@
                 android:gravity="center"
                 android:text="@string/door"
                 android:textColor="@color/white"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
         </RelativeLayout>
-    </LinearLayout>
 
 </LinearLayout>

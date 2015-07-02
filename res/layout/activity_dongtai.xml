@@ -5,7 +5,8 @@
     android:background="@color/white"
     android:orientation="vertical" >
 
-    <TextView
+    <!--
+         <TextView
         android:id="@+id/tvTongZhi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -13,5 +14,12 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="15dp"
         android:text="动态" />
+    -->
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </ListView>
 
 </LinearLayout>
