@@ -58,10 +58,10 @@
             android:name="com.smarthouse.activity.Welcome"
             android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
-        <!-- <activity
+        <!--  <activity
             android:name="com.smarthouse.activity.Main"
             android:screenOrientation="portrait" >
-        </activity> -->
+        </activity>  -->
         <activity android:name="com.smarthouse.fragment.OthersFragment" >
         </activity>
         <activity android:name="com.smarthouse.fragment.DoorFragment" >

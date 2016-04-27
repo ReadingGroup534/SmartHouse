@@ -1,21 +1,15 @@
 package com.smarthouse.activity;
 
-import java.net.URL;
 
-import android.R.bool;
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.app.AlertDialog.Builder;
-import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.SharedPreferences.Editor;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v4.widget.SimpleCursorAdapter.ViewBinder;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -219,7 +213,7 @@ public class Login extends Activity implements OnClickListener {
 		case R.id.login_reback_btn:
 			finish();
 			break;
-		// 监�?�记�?密�?多选框按钮事件
+		// 多选框按钮事件
 		// case R.id.cb_passwd:
 		//
 		// break;
@@ -237,7 +231,7 @@ public class Login extends Activity implements OnClickListener {
 		userString = user.getText().toString();
 		passwdString = passwd.getText().toString();
 		if (userString.length() == 0) {
-			user.setError("用户名能为空");
+			user.setError("用户名不能为空");
 			return false;
 		}
 		if (passwdString.length() == 0) {
